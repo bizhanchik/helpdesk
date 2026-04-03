@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Send } from 'lucide-react';
-import { Comment } from '../../types';
+import type { Comment } from '../../types';
 import * as commentService from '../../services/commentService';
 import { useAuth } from '../../hooks/useAuth';
 import { toast } from 'react-toastify';

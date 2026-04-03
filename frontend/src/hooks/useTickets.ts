@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Ticket } from '../types';
+import type { Ticket } from '../types';
 import * as ticketService from '../services/ticketService';
 import { toast } from 'react-toastify';
 

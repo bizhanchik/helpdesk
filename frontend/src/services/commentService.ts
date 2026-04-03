@@ -1,5 +1,5 @@
 import api from './api';
-import { Comment } from '../types';
+import type { Comment } from '../types';
 
 interface CommentsResponse {
   success: boolean;

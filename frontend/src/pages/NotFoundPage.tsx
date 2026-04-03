@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
-import { Headphones, ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 
 const NotFoundPage = () => {
   return (
     <div className="min-h-screen bg-surface flex items-center justify-center px-4">
       <div className="text-center max-w-sm">
-        <div className="w-16 h-16 bg-primary-light rounded-2xl flex items-center justify-center mx-auto mb-6">
-          <Headphones size={28} className="text-primary" />
-        </div>
+        <img src="/logo.svg" alt="HelpDesk Flow" className="w-16 h-16 mx-auto mb-6 opacity-40" />
         <h1 className="text-6xl font-bold text-primary mb-2">404</h1>
         <h2 className="text-xl font-semibold text-text-primary mb-2">Page not found</h2>
         <p className="text-sm text-text-secondary mb-8">

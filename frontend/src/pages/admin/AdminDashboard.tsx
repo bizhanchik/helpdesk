@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Ticket, Users, CheckCircle, AlertCircle, Trash2 } from 'lucide-react';
-import { StatsData, User } from '../../types';
+import type { StatsData, User } from '../../types';
 import * as adminService from '../../services/adminService';
 import { deleteTicket } from '../../services/ticketService';
 import { useTickets } from '../../hooks/useTickets';
@@ -109,7 +109,7 @@ const AdminDashboard = () => {
             <>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <StatCard label="Total Tickets" value={stats.totalTickets} icon={Ticket} color="bg-primary-light text-primary" />
-                <StatCard label="Total Users" value={stats.totalUsers} icon={Users} color="bg-purple-50 text-purple-600" />
+                <StatCard label="Total Users" value={stats.totalUsers} icon={Users} color="bg-blue-50 text-blue-800" />
                 <StatCard label="Open Tickets" value={stats.openTickets} icon={AlertCircle} color="bg-amber-50 text-amber-600" />
                 <StatCard label="Resolved" value={stats.resolvedTickets} icon={CheckCircle} color="bg-green-50 text-green-600" />
               </div>

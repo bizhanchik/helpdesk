@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Headphones, LogOut, User } from 'lucide-react';
+import { Menu, X, LogOut, User } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import Badge from '../ui/Badge';
 
@@ -24,10 +24,8 @@ const Navbar = ({ onMenuToggle, isSidebarOpen }: NavbarProps) => {
       </button>
 
       {/* Logo */}
-      <div className="flex items-center gap-2">
-        <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-          <Headphones size={16} className="text-white" />
-        </div>
+      <div className="flex items-center gap-2.5">
+        <img src="/logo.svg" alt="HelpDesk Flow logo" className="w-8 h-8" />
         <span className="font-serif font-semibold text-text-primary text-lg hidden sm:block">
           HelpDesk Flow
         </span>

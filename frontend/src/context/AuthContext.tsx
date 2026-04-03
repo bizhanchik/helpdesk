@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect, useMemo, useCallback, ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { User } from '../types';
+import type { User } from '../types';
 import * as authService from '../services/authService';
 
 interface AuthContextValue {

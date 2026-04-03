@@ -1,5 +1,5 @@
 import api from './api';
-import { Ticket } from '../types';
+import type { Ticket } from '../types';
 
 interface TicketsResponse {
   success: boolean;

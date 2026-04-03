@@ -8,7 +8,7 @@ import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import SkeletonLoader from '../../components/ui/SkeletonLoader';
 import { toast } from 'react-toastify';
-import { Ticket } from '../../types';
+import type { Ticket } from '../../types';
 
 const AgentDashboard = () => {
   const { user } = useAuth();

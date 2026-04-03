@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Paperclip, User, Calendar } from 'lucide-react';
-import { Ticket } from '../../types';
+import type { Ticket } from '../../types';
 import { useAuth } from '../../hooks/useAuth';
 import * as ticketService from '../../services/ticketService';
 import Badge from '../../components/ui/Badge';

@@ -1,6 +1,5 @@
 import { useState, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { Headphones } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import Input from '../../components/ui/Input';
 import Button from '../../components/ui/Button';
@@ -48,9 +47,7 @@ const RegisterPage = () => {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center mb-3">
-            <Headphones size={22} className="text-white" />
-          </div>
+          <img src="/logo.svg" alt="HelpDesk Flow" className="w-12 h-12 mb-3" />
           <h1 className="text-2xl font-bold text-text-primary">Create Account</h1>
           <p className="text-sm text-text-secondary mt-1">Join HelpDesk Flow as a client</p>
         </div>

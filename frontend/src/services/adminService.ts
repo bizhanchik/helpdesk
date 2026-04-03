@@ -1,5 +1,5 @@
 import api from './api';
-import { User, StatsData } from '../types';
+import type { User, StatsData } from '../types';
 
 interface UsersResponse {
   success: boolean;

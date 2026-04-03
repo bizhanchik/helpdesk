@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Ticket } from '../../types';
+import type { Ticket } from '../../types';
 import TicketCard from './TicketCard';
 import SkeletonLoader from '../ui/SkeletonLoader';
 import { Inbox } from 'lucide-react';

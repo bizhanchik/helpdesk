@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Clock, User } from 'lucide-react';
-import { Ticket } from '../../types';
+import type { Ticket } from '../../types';
 import Badge from '../ui/Badge';
 
 interface TicketCardProps {

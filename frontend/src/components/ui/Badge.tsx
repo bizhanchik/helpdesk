@@ -22,15 +22,15 @@ const priorityStyles: Record<string, string> = {
 
 /** Color mapping for ticket categories */
 const categoryStyles: Record<string, string> = {
-  'Hardware': 'bg-purple-50 text-purple-700',
-  'Software': 'bg-indigo-50 text-indigo-700',
+  'Hardware': 'bg-blue-50 text-blue-800',
+  'Software': 'bg-sky-50 text-sky-700',
   'Network':  'bg-cyan-50 text-cyan-700',
 };
 
 /** Color mapping for user roles */
 const roleStyles: Record<string, string> = {
   'client': 'bg-slate-100 text-slate-600',
-  'agent':  'bg-indigo-50 text-indigo-700',
+  'agent':  'bg-blue-50 text-blue-800',
   'admin':  'bg-rose-50 text-rose-700',
 };
 
