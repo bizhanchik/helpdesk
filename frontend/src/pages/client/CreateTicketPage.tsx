@@ -1,4 +1,4 @@
-import { useState, useRef, FormEvent } from 'react';
+import { useState, useRef, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Paperclip, X } from 'lucide-react';
 import { createTicket } from '../../services/ticketService';
