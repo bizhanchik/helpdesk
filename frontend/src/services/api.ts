@@ -7,7 +7,7 @@ import axios from 'axios';
  * - Response interceptor redirects to /login on 401 (expired/invalid token)
  */
 const api = axios.create({
-  baseURL: '',
+  baseURL: import.meta.env.VITE_API_URL || '',
   headers: { 'Content-Type': 'application/json' },
 });
 
